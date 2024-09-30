@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+        
+        body{
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-image: url(../imagens/bg.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color:white;
+        }
+        
+        .containerLogin{
+            position: absolute;  
+            background-color: rgb(255,255,255,0.2);
+            width: 250px;
+            height: auto;
+            box-sizing: border-box;
+            margin-top: 150px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .container{
+            width: 1000px;
+            height: auto;
+            background-color: transparent;
+            margin: auto;
+            box-sizing: border-box;
+            margin-top: 100px;
+        }
+        
+        .cabecalho,nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            box-sizing: border-box;
+        }
+        
+        .cabecalho .logo{
+            width: 450px;
+            height: 100px;
+            background-color: transparent;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;           
+            box-sizing: border-box;
+            align-items: center;
+        }
+        
+        .logo img{
+            width: 150px;
+        }
+        
+        .cabecalho .btnMenu{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+        
+        .cabecalho .btnEntrar{
+            width: 250px;
+            height: 100px;
+            background-color: transparent;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            box-sizing: border-box;
+            align-items: center;
+        }
+        
+        .containerConteudo{
+            width: 1000px;
+            height: auto;
+            background-color: transparent;
+            box-sizing: border-box;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+        
+        .conteudo{
+             width: 1000px;
+            height: auto;
+            background-color: transparent;
+            box-sizing: border-box;
+        }
+        
+        .conteudo p{
+            width: 500px;
+            box-sizing: border-box;
+        }
+        
+        .rodape{
+            width: 1000px;
+            height: 50px;
+            background-color: transparent;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+        
+        
+        
+         /*Formulários*/
+        
+           .btnLogin{
+            width: 200px;
+            height: 35px;
+            box-sizing: border-box;
+            outline:none;
+            border:none;
+            border-radius: 5px;
+            color: darkblue;
+            background-color: #FFD700;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .btnSubmit{
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 40px;
+            box-sizing: border-box;
+            outline:none;
+            border:none;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: darkblue;
+            color: darkblue;
+            font-weight: bold;
+            background-color: #FFD700;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;    
+            margin-top: 5px;
+        }
+        
+        .botaoEntrar{            
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            box-sizing: border-box;
+            outline:none;
+            border:none;
+            border-radius: 20px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: darkblue;
+            color: darkblue;
+            font-weight: bold;
+            background-color: #FFD700;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        
+        /*Seletores*/
+        
+        input[type='text'],input[type='password'],input[type='email'],input[type='date'],input[type='number'],select,textarea{
+            box-sizing: border-box;
+            outline:none;
+            border:none;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 5px;
+        }
+        
+        .inputLogin{
+             width: 200px;
+             height: 35px;
+        }
+        
+        .inputForm{
+             width: 300px;
+             height: 40px;            
+             color: darkblue;
+        }
+        
+        .textarea{
+             width: 600px;
+             height: 100px;            
+             color: darkblue;
+             padding-top: 10px;
+        }
+        
+        h2{
+            margin: 0;
+        }
+        
+        a{
+            font-family: 'Roboto', sans-serif;
+            color:white;
+            
+        }
+
+        /* Tabelas */
+
+        table{
+                border: none;
+                border-collapse: collapse;
+            }
+            
+            table th{
+                background-color: darkblue;
+                color: white;
+                padding: 16px;
+                text-align: left;
+                border-bottom-color: white;
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+                 border-top-color: white;
+                border-top-width: 2px;
+                border-top-style: solid;
+            }
+            table tr{
+                 border-bottom-color: white;
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+            }
+            
+            table tr td{
+                background-color: transparent;
+                color: white;
+                padding: 16px;
+                text-align: left;
+                font-weight: bold;
+            }
